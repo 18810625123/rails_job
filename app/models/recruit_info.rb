@@ -1,0 +1,7 @@
+class RecruitInfo < ApplicationRecord
+
+
+	
+
+end
+

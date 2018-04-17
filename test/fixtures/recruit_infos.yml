@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  job_title: MyString
+  start_at: 2018-01-10
+  end_at: 2018-01-10
+  job_city: MyString
+  city_id: 1
+  company_id: 1
+  job_nature: MyString
+  delivery_email: MyString
+  jd: MyText
+  target: MyString
+  source: 1
+  checksum: MyString
+
+two:
+  job_title: MyString
+  start_at: 2018-01-10
+  end_at: 2018-01-10
+  job_city: MyString
+  city_id: 1
+  company_id: 1
+  job_nature: MyString
+  delivery_email: MyString
+  jd: MyText
+  target: MyString
+  source: 1
+  checksum: MyString
