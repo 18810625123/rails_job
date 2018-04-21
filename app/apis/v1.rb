@@ -27,8 +27,8 @@ class V1 < Grape::API
 
   get 'works' do
     puts params
-    works = Work.ransack(params).result
-    return result(true, works.first(50), works.size, '')
+    works = Work.ransack(params).result.offset(params['offset']||1).limit(params['limit']||50)
+    return result(true, works, works.size, '')
   end
 
   post '/featch' do
